@@ -1,2 +1,0 @@
-# rasm
-Wedding Invitation Card
