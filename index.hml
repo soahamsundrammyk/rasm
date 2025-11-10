@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smriti & Rajneesh — #RASM | Wedding Invitation</title>
+  <meta name="description" content="Wedding invitation for Smriti &amp; Rajneesh — #RASM. Tilak: 30 Nov 2025, Haldi &amp; Mehandi: 03 Dec 2025, Wedding: 04 Dec 2025 at Mastiff Grand Regal Resort, Arrah." />
+  <meta property="og:title" content="Smriti & Rajneesh — #RASM" />
+  <meta property="og:description" content="Join us at Mastiff Grand Regal Resort, Arrah." />
+  <meta property="og:type" content="website" />
+  <style>
+    :root{
+      --navy:#0c1526;      /* deep royal navy */
+      --navy-2:#101b33;
+      --ivory:#f8f5ef;     /* warm ivory */
+      --muted:#c9c4b7;     /* muted ivory text */
+      --gold:#d6b35d;      /* soft brushed gold */
+      --gold-2:#b9953f;
+      --card:#121a2b;      /* card dark */
+      --shadow:0 12px 40px rgba(0,0,0,.35);
+      --radius:18px;
+      --maxw:1000px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{
+      font-family:ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", Ubuntu, Cantarell, Arial, sans-serif;
+      background: radial-gradient(1200px 600px at 10% 0%, #13203a 0%, var(--navy) 55%, #0a1222 100%) fixed;
+      color:var(--ivory);
+      line-height:1.6;
+      -webkit-font-smoothing:antialiased;
+    }
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:0 18px}
+    /* nav */
+    .topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+    .brand{font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);text-decoration:none}
+    .hash{opacity:.8;color:var(--muted);font-size:.95rem}
+    /* hero */
+    header.hero{
+      position:relative;overflow:hidden;margin:10px 0 26px;border-radius:calc(var(--radius) + 6px);
+      background:
+        radial-gradient(1200px 500px at 120% -10%, rgba(214,179,93,.22) 0%, transparent 50%),
+        radial-gradient(900px 600px at -20% 120%, rgba(185,149,63,.15) 0%, transparent 55%),
+        linear-gradient(135deg, var(--navy-2), #0a1222 60%);
+      box-shadow:var(--shadow);
+    }
+    .hero-inner{padding:56px 18px;text-align:center}
+    .title{
+      font-family:"Cinzel", ui-serif, Georgia, "Times New Roman", serif;
+      font-weight:700;letter-spacing:.02em;margin:0 0 8px;
+      font-size:clamp(2rem, 6vw, 3.4rem);
+      background:linear-gradient(180deg, #fff, #eadfca 60%, #d9c7a0);
+      -webkit-background-clip:text;background-clip:text;color:transparent;
+    }
+    .and{color:var(--gold)}
+    .subtitle{margin:0;color:var(--muted)}
+    .date-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:18px 0 14px}
+    .pill{
+      border:1px solid rgba(214,179,93,.35);
+      background:linear-gradient(180deg, rgba(214,179,93,.08), rgba(255,255,255,.03));
+      color:var(--ivory);
+      border-radius:999px;padding:8px 14px;font-size:.96rem;backdrop-filter:blur(6px)
+    }
+    .cta-row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:10px}
+    .btn{
+      display:inline-block;padding:11px 18px;border-radius:999px;text-decoration:none;
+      background:linear-gradient(180deg, var(--gold), var(--gold-2));
+      color:#0b0b0b; font-weight:700; box-shadow:var(--shadow)
+    }
+    .btn.ghost{
+      background:transparent;color:var(--ivory);
+      border:1px solid rgba(214,179,93,.35)
+    }
+    /* photos */
+    .photos{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:18px auto 6px;max-width:760px}
+    .photo{
+      border-radius:16px;overflow:hidden;box-shadow:var(--shadow);aspect-ratio:4/3;background:var(--card);position:relative
+    }
+    .photo svg{position:absolute;inset:0;width:100%;height:100%}
+    /* cards */
+    .card{background:linear-gradient(180deg, #111a2b, #10182a);border:1px solid rgba(214,179,93,.18);
+      border-radius:var(--radius);box-shadow:var(--shadow);padding:20px;margin:18px 0}
+    .card h2{
+      margin:0 0 10px;font-family:"Cinzel", ui-serif, Georgia, serif;font-weight:700;
+      color:var(--gold);letter-spacing:.02em
+    }
+    .list{margin:0;padding-left:18px}
+    .map-wrap{position:relative;padding-top:56.25%;border-radius:14px;overflow:hidden;box-shadow:var(--shadow);border:1px solid rgba(214,179,93,.18)}
+    .map-wrap iframe{position:absolute;inset:0;border:0;width:100%;height:100%}
+    .center{text-align:center}
+    footer{opacity:.7;padding:26px 0 50px;text-align:center}
+    /* small screens */
+    @media (max-width:760px){.photos{grid-template-columns:1fr} .hero-inner{padding:40px 16px}}
+  </style>
+  <!-- Optional elegant heading font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="wrap topbar">
+    <a class="brand" href="#">Smriti &amp; Rajneesh</a>
+    <div class="hash">#RASM</div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-inner wrap">
+      <h1 class="title">Smriti <span class="and">&amp;</span> Rajneesh</h1>
+      <p class="subtitle">We’re tying the knot — and we’d love you there.</p>
+
+      <div class="date-row">
+        <span class="pill"><strong>Tilak:</strong>&nbsp;30 Nov, 2025</span>
+        <span class="pill"><strong>Haldi &amp; Mehandi:</strong>&nbsp;03 Dec, 2025</span>
+        <span class="pill"><strong>Wedding Day:</strong>&nbsp;04 Dec, 2025</span>
+      </div>
+
+      <div class="date-row">
+        <span class="pill"><strong>Venue:</strong>&nbsp;Mastiff Grand Regal Resort, Arrah</span>
+      </div>
+
+      <div class="cta-row">
+        <!-- Replace # with your Google Drive video link later -->
+        <a class="btn" href="#" target="_blank" rel="noopener">Watch Video (Drive)</a>
+        <!-- Replace href below with exact Google Maps share link if you prefer -->
+        <a class="btn ghost" href="https://maps.google.com/?q=Mastiff+Grand+Regal+Resort,+Arrah" target="_blank" rel="noopener">Open in Google Maps</a>
+      </div>
+
+      <div class="photos">
+        <!-- Photo placeholder 1 -->
+        <div class="photo">
+          <!-- Replace this inline SVG by your photo: <img src="your_photo1.jpg" alt="Smriti & Rajneesh" /> -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#1c2743"/><stop offset="1" stop-color="#0d1323"/>
+              </linearGradient>
+            </defs>
+            <rect width="1200" height="900" fill="url(#g1)"/>
+            <text x="60" y="470" font-size="60" fill="#f1e8d6" font-family="Cinzel,Georgia,serif" font-weight="700">Add Photo 1</text>
+          </svg>
+        </div>
+        <!-- Photo placeholder 2 -->
+        <div class="photo">
+          <!-- Replace this inline SVG by your photo: <img src="your_photo2.jpg" alt="Smriti & Rajneesh" /> -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice">
+            <defs>
+              <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#1c2743"/><stop offset="1" stop-color="#0d1323"/>
+              </linearGradient>
+            </defs>
+            <rect width="1200" height="900" fill="url(#g2)"/>
+            <text x="60" y="470" font-size="60" fill="#f1e8d6" font-family="Cinzel,Georgia,serif" font-weight="700">Add Photo 2</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <h2>Celebration Schedule</h2>
+      <ul class="list">
+        <li><strong>Tilak:</strong> 30 November, 2025</li>
+        <li><strong>Haldi &amp; Mehandi:</strong> 03 December, 2025</li>
+        <li><strong>Wedding Day:</strong> 04 December, 2025</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Location</h2>
+      <p>Mastiff Grand Regal Resort, Arrah</p>
+      <div class="map-wrap">
+        <!-- If you have a precise share link/coords, swap the q= value below -->
+        <iframe
+          title="Map to Mastiff Grand Regal Resort, Arrah"
+          src="https://www.google.com/maps?q=Mastiff+Grand+Regal+Resort,+Arrah&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <p class="center" style="margin-top:12px">
+        <a class="btn ghost" href="https://maps.google.com/?q=Mastiff+Grand+Regal+Resort,+Arrah" target="_blank" rel="noopener">Open in Google Maps</a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Memories</h2>
+      <p>Share your photos with <strong>#RASM</strong>. We can’t wait to celebrate with you!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Smriti &amp; Rajneesh — #RASM</p>
+  </footer>
+
+  <script>
+    // Set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // OPTIONAL: simple helper to swap the Drive link via prompt (can remove later)
+    // Run in console if needed: setDrive('https://drive.google.com/...')
+    window.setDrive = function(url){
+      const el = document.querySelector('.cta-row .btn');
+      if(el){ el.href = url; alert('Drive link set!'); }
+    }
+  </script>
+</body>
+</html>
