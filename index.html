@@ -152,6 +152,15 @@ body{
 .map-wrap iframe{position:absolute; inset:0; width:100%; height:100%; border:0}
 .actions{display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-top:12px}
 
+/* Buttons */
+.btn{
+  display:inline-block; padding:10px 16px; border-radius:999px; text-decoration:none; font-weight:700; letter-spacing:.02em;
+  border:1px solid var(--gold-2);
+  background: linear-gradient(180deg, #ffefad, var(--gold));
+  color:#3a2000; box-shadow: 0 8px 20px rgba(212,175,55,.28), inset 0 1px 0 rgba(255,255,255,.6);
+}
+.btn:hover{transform: translateY(-1px)}
+
 /* ===== Photos (6-photo clean grid with lightbox) ===== */
 .gallery{
   display:grid;
@@ -171,6 +180,33 @@ body{
   position:absolute; left:8px; bottom:8px; padding:4px 8px; border-radius:999px;
   font-size:.85rem; background:rgba(255,255,255,.85); color:#553f2a;
   border:1px solid rgba(0,0,0,.05);
+}
+
+/* ===== Video: bigger & responsive ===== */
+.video-wrap{
+  position: relative;
+  aspect-ratio: 16 / 9;      /* wide & spacious on desktop */
+  width: 100%;
+  border-radius:14px;
+  overflow:hidden;
+  border:1px solid var(--border);
+}
+.video-wrap iframe{
+  position:absolute; inset:0;
+  width:100%; height:100%;
+  border:0;
+}
+/* Taller video on phone for presence */
+@media (max-width: 720px){
+  .video-wrap{ aspect-ratio: 4 / 3; }
+}
+
+/* Optional: full-bleed helper (used on the video panel) */
+.fullbleed{
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  border-left: 0; border-right: 0;
+  border-radius: 0;
 }
 
 /* Lightbox overlay */
@@ -363,7 +399,7 @@ body{
 <section id="video" class="section">
   <h2 class="h2">Video Invitation</h2>
   <div class="divider" aria-hidden="true"></div>
-  <div class="panel" style="padding:0">
+  <div class="panel fullbleed" style="padding:0">
     <div class="video-wrap">
       <iframe
         allow="autoplay; encrypted-media"
