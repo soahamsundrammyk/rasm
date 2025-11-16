@@ -94,6 +94,9 @@ body{
   color: var(--red-2);
 }
 
+/* Show line breaks only on phones */
+.only-phone { display: none; }
+
 /* Countdown */
 .countdown-label{margin: 12px 0 4px; font-weight: 600; color: var(--ink); font-size:1rem}
 .countdown{
@@ -270,7 +273,28 @@ body{
   .venue{grid-template-columns:1fr}
   .gallery{grid-template-columns:1fr}
   .cd{min-width:72px}
+
+  /* Phone-only hero title stacking & tuning */
+  .only-phone{ display:block; }
+  .hero-title{ line-height:1.2; }
 }
+
+@media (max-width: 720px){
+  .nav-inner {
+    justify-content: center;
+  }
+
+  .brand {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .navlinks {
+    display: none; /* already there; keeps links hidden on mobile */
+  }
+}
+
 </style>
 </head>
 <body>
@@ -307,7 +331,13 @@ body{
       <div class="mantra-text">श्री गणेशाय नमः</div>
     </div>
 
-    <h1 class="hero-title">Dr. Smriti weds Dr. Rajneesh</h1>
+    <h1 class="hero-title">
+      Dr. Smriti
+      <br class="only-phone">
+      weds
+      <br class="only-phone">
+      Dr. Rajneesh
+    </h1>
 
     <!-- Countdown -->
     <div class="countdown-label">Countdown to the Wedding</div>
